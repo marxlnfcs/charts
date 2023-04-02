@@ -1,6 +1,15 @@
 # Helm Charts
 Helm charts created by me
 
+## Adding Repository
+```
+$ helm repo add marxlnfcs https://marxlnfcs.github.io/charts/
+$ helm repo update
+
+$ helm search repo marxlnfcs
+$ helm install my-release marxlnfcs/<chart>
+```
+
 ## Charts
 | Chart                                                  | Description                                   | Url                                        |
 |--------------------------------------------------------|-----------------------------------------------|--------------------------------------------|

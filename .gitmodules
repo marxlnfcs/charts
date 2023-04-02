@@ -1,0 +1,3 @@
+[submodule "charts/wildduck"]
+	path = charts/wildduck
+	url = https://github.com/marxlnfcs/wildduck-helm.git

@@ -3,6 +3,16 @@ entries:
   wildduck:
   - apiVersion: v2
     appVersion: 1.39.6
+    created: "2023-05-06T16:50:58.95789138Z"
+    description: A chart for running a whole wildduck installation
+    digest: fbf08217920cb8e3e36ee68e49d5a43fc50857d97208de267b585604a5b17456
+    name: wildduck
+    type: application
+    urls:
+    - https://github.com/marxlnfcs/charts/releases/download/wildduck-0.1.0/wildduck-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.39.6
     created: "2023-04-22T03:39:30.031573635Z"
     description: A chart for running a whole wildduck installation
     digest: adf785f7994d3f177dc6e1bfa865e703b36e682ec1503836ecdca1ee03124b7c

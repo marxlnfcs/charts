@@ -19,6 +19,10 @@ jobs:
           find ./charts/wildduck -maxdepth 1 -type f -delete
           mv ./charts/wildduck/wildduck/* ./charts/wildduck
           rm -r ./charts/wildduck/wildduck
+          
+          find ./charts/7dtd -maxdepth 1 -type f -delete
+          mv ./charts/7dtd/7dtd/* ./charts/7dtd
+          rm -r ./charts/7dtd/7dtd
 
       - name: Configure Git
         run: |

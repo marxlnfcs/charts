@@ -14,3 +14,4 @@ $ helm install my-release marxlnfcs/<chart>
 | Chart                                                  | Description                                   | Url                                        |
 |--------------------------------------------------------|-----------------------------------------------|--------------------------------------------|
 | [Wildduck](https://github.com/marxlnfcs/wildduck-helm) | Helm chart for running wildduck in kubernetes | https://github.com/marxlnfcs/wildduck-helm |
+| [7DTD](https://github.com/marxlnfcs/7dtd-helm)         | Helm chart for running 7dtd in kubernetes     | https://github.com/marxlnfcs/7dtd-helm     |

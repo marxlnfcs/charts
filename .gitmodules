@@ -1,3 +1,6 @@
 [submodule "charts/wildduck"]
 	path = charts/wildduck
 	url = https://github.com/marxlnfcs/wildduck-helm.git
+[submodule "charts/7dtd"]
+	path = charts/7dtd
+	url = https://github.com/marxlnfcs/7dtd-helm.git

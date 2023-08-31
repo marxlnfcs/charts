@@ -4,3 +4,6 @@
 [submodule "charts/7dtd"]
 	path = charts/7dtd
 	url = https://github.com/marxlnfcs/7dtd-helm.git
+[submodule "bytesafe-ce-helm"]
+	path = charts/bytesafe-ce
+	url = https://github.com/marxlnfcs/bytesafe-ce-helm.git

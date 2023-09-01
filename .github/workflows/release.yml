@@ -23,6 +23,10 @@ jobs:
           find ./charts/7dtd -maxdepth 1 -type f -delete
           mv ./charts/7dtd/7dtd/* ./charts/7dtd
           rm -r ./charts/7dtd/7dtd
+          
+          find ./charts/bytesafe-ce -maxdepth 1 -type f -delete
+          mv ./charts/bytesafe-ce/bytesafe-ce/* ./charts/bytesafe-ce
+          rm -r ./charts/bytesafe-ce/bytesafe-ce
 
       - name: Configure Git
         run: |

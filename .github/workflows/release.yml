@@ -16,18 +16,6 @@ jobs:
           
       - name: Move charts
         run: |
-          #find ./charts/wildduck -maxdepth 1 -type f -delete
-          #mv ./charts/wildduck/wildduck/* ./charts/wildduck
-          #rm -r ./charts/wildduck/wildduck
-          
-          #find ./charts/7dtd -maxdepth 1 -type f -delete
-          #mv ./charts/7dtd/7dtd/* ./charts/7dtd
-          #rm -r ./charts/7dtd/7dtd
-          
-          #find ./charts/bytesafe-ce -maxdepth 1 -type f -delete
-          #mv ./charts/bytesafe-ce/bytesafe-ce/* ./charts/bytesafe-ce
-          #rm -r ./charts/bytesafe-ce/bytesafe-ce
-          
           for folder in ./charts/*; do
             if [ -d "$folder" ]; then
               find $folder -maxdepth 1 -type f -delete

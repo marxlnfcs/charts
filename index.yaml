@@ -11,6 +11,17 @@ entries:
     urls:
     - https://github.com/marxlnfcs/charts/releases/download/7dtd-1.0.0/7dtd-1.0.0.tgz
     version: 1.0.0
+  bytesafe-ce:
+  - apiVersion: v2
+    appVersion: 1.0.6
+    created: "2023-09-13T14:49:27.99946894Z"
+    description: A chart for running a whole chart installation
+    digest: 67b6dfb5c3fc1ce9c9bfd8eac0055617bd98865fcf0097d8325d05cf059d1b0c
+    name: bytesafe-ce
+    type: application
+    urls:
+    - https://github.com/marxlnfcs/charts/releases/download/bytesafe-ce-1.0.0/bytesafe-ce-1.0.0.tgz
+    version: 1.0.0
   wildduck:
   - apiVersion: v2
     appVersion: 1.39.6

@@ -19,8 +19,8 @@ jobs:
           for folder in ./charts/*; do
             if [ -d "$folder" ]; then
               find $folder -maxdepth 1 -type f -delete
-              cp -n "$folder/chart"/* "$folder"
-              rm -f "$folder/chart"/*
+              cp -r "$folder/chart/." $folder
+              rm -r "$folder/chart"
             fi
           done
 

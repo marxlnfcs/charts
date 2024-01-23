@@ -7,3 +7,6 @@
 [submodule "bytesafe-ce-helm"]
 	path = charts/bytesafe-ce
 	url = https://github.com/marxlnfcs/bytesafe-ce-helm.git
+[submodule "charts/palworld"]
+	path = charts/palworld
+	url = https://github.com/marxlnfcs/palworld-helm
